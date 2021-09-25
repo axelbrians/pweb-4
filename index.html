@@ -2,11 +2,86 @@
 <html lang="en">
     <head>
         <title>Belajar Membuat Layout dengan HTML dan CSS</title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;800&display=swap');
+        </style>
+
         <link rel="stylesheet" href="style.css" />
+
     </head>
     
     <body>
-
+        <nav class="nav-container">
+            <div class="nav-logo">
+                <img class="app-logo" src="/images/app_logo.svg"/>
+                <a class="nav-title unselect">GG Store</a>
+            <div/>
+            <a class="nav-item unselect">Home</a>
+            <a class="nav-item unselect">About</a>
+            <a class="nav-item unselect">Contact</a>
+        </nav>
         
+        <div id="base-container">
+            <div class="span-8-center-xl">
+                <div class="item-card">
+                    <img class="item-image"
+                    src="images/arctis_prime.png"/>
+                    <div class="item-content">
+                        <a class="item-title">Arctis Prime</a>
+                        <a class="item-subtitle">Headset</a>
+                        <a class="item-description">Advanced high fidelity audio drivers with the same premium hardware and tuning from the Arctis Pro. Built for extreme durability and lightweight performance with aluminum alloy and steel. Noise isolating leather-like ear cushions for both long-lasting comfort and noise isolation. Discord-certified ClearCast microphone. Detachable 3.5mm cable compatible with all gaming platforms including PC, Xbox, PlayStation, and Switch
+                        </a>
+                        <a class="item-price">$119.99</a>
+                        <a class="item-ship unselect">Place Order</a>
+                    </div>
+                </div>
+
+                <div class="item-card">
+                    <img class="item-image"
+                    src="images/arctis_pro_wireless.jpg"/>
+                    <div class="item-content">
+                        <a class="item-title">Arctis Pro Wireless</a>
+                        <a class="item-subtitle">Headset</a>
+                        <a class="item-description">Dual Wireless: 2.4G lossless + Bluetooth. Industry-leading hi-res capable speaker drivers. Lightweight aluminum alloy and steel construction. Swappable dual-battery system
+                        </a>
+                        <a class="item-price">$329.99</a>
+                        <a class="item-ship unselect">Place Order</a>
+                    </div>
+                </div>
+
+                <div class="item-card">
+                    <img class="item-image"
+                    src="images/prime_mini.png"/>
+                    <div class="item-content">
+                        <a class="item-title">Prime Mini Wireless</a>
+                        <a class="item-subtitle">Mice</a>
+                        <a class="item-description">Smaller. Lighter. All Performance. 73g ultra lightweight and mini form factor was designed with top esports pros for sustained comfort and battle-tested durability. Prestige Optical Magnetic Switches are a first in esports and harness the power of light for response times and utilize magnetic components to last 5x longer than the competition. Pro grade 1-to-1 tracking with the TrueMove Air optical gaming sensor. Quantum 2.0 Wireless offers lag-free gaming with dual channel optimization. Over 100 hours of high-performance 1000Hz gameplay plus fast-charge
+                        </a>
+                        <a class="item-price">$129.99</a>
+                        <a class="item-ship unselect" href="https://steelseries.com/gaming-mice/prime-mini-wireless">Place Order</a>
+                    </div>
+                </div>
+
+                <div class="item-card">
+                    <img class="item-image"
+                    style="object-position: 20% 0;"
+                    src="images/qck_prism_xl.png"/>
+                    <div class="item-content">
+                        <a class="item-title">QcK Prism XL</a>
+                        <a class="item-subtitle">Mice</a>
+                        <a class="item-description">Smaller. Lighter. All Performance. 73g ultra lightweight and mini form factor was designed with top esports pros for sustained comfort and battle-tested durability. Prestige Optical Magnetic Switches are a first in esports and harness the power of light for response times and utilize magnetic components to last 5x longer than the competition. Pro grade 1-to-1 tracking with the TrueMove Air optical gaming sensor. Quantum 2.0 Wireless offers lag-free gaming with dual channel optimization. Over 100 hours of high-performance 1000Hz gameplay plus fast-charge
+                        </a>
+                        <a class="item-price">$59.99</a>
+                        <a class="item-ship unselect" href="https://steelseries.com/gaming-mousepads/qck-prism-series?size=xl">Place Order</a>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="span-8-center-xl height-screen"></div>
+            <div class="span-8-center-xl height-screen"></div> -->
+        </div>
+
+        <footer>
+            <a class="footer-title">© Axel Briano Suherik 2021</a>
+        </footer>
     </body>
 </html>
